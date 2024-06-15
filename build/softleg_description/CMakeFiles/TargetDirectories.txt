@@ -1,0 +1,9 @@
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/uninstall.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/softleg_description_uninstall.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/test.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/edit_cache.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/rebuild_cache.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/list_install_components.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/install.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/install/local.dir
+/home/yurs/softleg_ws/build/softleg_description/CMakeFiles/install/strip.dir

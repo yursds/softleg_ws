@@ -1,0 +1,6 @@
+Invoking command in '/home/yurs/softleg_ws/build/softleg_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/softleg_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/softleg_description
+Invoked command in '/home/yurs/softleg_ws/build/softleg_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/softleg_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/softleg_description
+Invoking command in '/home/yurs/softleg_ws/build/softleg_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/softleg_description -- -j8 -l8
+Invoked command in '/home/yurs/softleg_ws/build/softleg_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/softleg_description -- -j8 -l8
+Invoking command in '/home/yurs/softleg_ws/build/softleg_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/softleg_description
+Invoked command in '/home/yurs/softleg_ws/build/softleg_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/softleg_description

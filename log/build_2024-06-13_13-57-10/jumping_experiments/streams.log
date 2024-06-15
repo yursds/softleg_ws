@@ -1,0 +1,20 @@
+[0.442s] Invoking command in '/home/yurs/softleg_ws/build/jumping_experiments': PYTHONPATH=/home/yurs/softleg_ws/build/jumping_experiments/prefix_override:/home/yurs/softleg_ws/install/jumping_experiments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yurs/softleg_ws/build/jumping_experiments/build --no-deps symlink_data
+[0.623s] running develop
+[0.623s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.623s]   warnings.warn(
+[0.696s] running egg_info
+[0.697s] writing jumping_experiments.egg-info/PKG-INFO
+[0.697s] writing dependency_links to jumping_experiments.egg-info/dependency_links.txt
+[0.697s] writing entry points to jumping_experiments.egg-info/entry_points.txt
+[0.697s] writing requirements to jumping_experiments.egg-info/requires.txt
+[0.697s] writing top-level names to jumping_experiments.egg-info/top_level.txt
+[0.699s] reading manifest file 'jumping_experiments.egg-info/SOURCES.txt'
+[0.699s] writing manifest file 'jumping_experiments.egg-info/SOURCES.txt'
+[0.700s] running build_ext
+[0.700s] Creating /home/yurs/softleg_ws/install/jumping_experiments/lib/python3.10/site-packages/jumping-experiments.egg-link (link to .)
+[0.701s] Installing getup script to /home/yurs/softleg_ws/install/jumping_experiments/lib/jumping_experiments
+[0.701s] Installing jumping_node script to /home/yurs/softleg_ws/install/jumping_experiments/lib/jumping_experiments
+[0.701s] 
+[0.701s] Installed /home/yurs/softleg_ws/build/jumping_experiments
+[0.702s] running symlink_data
+[0.721s] Invoked command in '/home/yurs/softleg_ws/build/jumping_experiments' returned '0': PYTHONPATH=/home/yurs/softleg_ws/build/jumping_experiments/prefix_override:/home/yurs/softleg_ws/install/jumping_experiments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yurs/softleg_ws/build/jumping_experiments/build --no-deps symlink_data

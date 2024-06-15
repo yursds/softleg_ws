@@ -1,0 +1,8 @@
+rosdep update --rosdistro=$ROS_DISTRO
+sudo apt-get update
+rosdep install --from-paths src --ignore-src -r -y
+
+. /opt/ros/${ROS_DISTRO}/setup.sh
+colcon build --symlink-install && . install/setup.bash
+source /opt/ros/${ROS_DISTRO}/setup.bash
+

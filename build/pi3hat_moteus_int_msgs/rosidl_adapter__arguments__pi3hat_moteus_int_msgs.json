@@ -1,0 +1,8 @@
+{
+  "package_name": "pi3hat_moteus_int_msgs",
+  "non_idl_tuples": [
+    "/home/yurs/softleg_ws/src/pi3hat_moteus_int_msgs:msg/PacketPass.msg",
+    "/home/yurs/softleg_ws/src/pi3hat_moteus_int_msgs:msg/JointsStates.msg",
+    "/home/yurs/softleg_ws/src/pi3hat_moteus_int_msgs:msg/JointsCommand.msg"
+  ]
+}

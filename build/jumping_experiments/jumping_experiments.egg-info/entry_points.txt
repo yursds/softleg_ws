@@ -1,0 +1,4 @@
+[console_scripts]
+getup = jumping_experiments.getup:main
+jumping_node = jumping_experiments.jumping_node:main
+

@@ -1,0 +1,17 @@
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/launch/sim.launch.py
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/config/softleg_gazebo_sim_jnt_PD.yaml
+/home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/package_run_dependencies/softleg_gazebo
+/home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/parent_prefix_path/softleg_gazebo
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/ament_prefix_path.sh
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/ament_prefix_path.dsv
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/path.sh
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/path.dsv
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.bash
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.sh
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.zsh
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.dsv
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/package.dsv
+/home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/packages/softleg_gazebo
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/cmake/softleg_gazeboConfig.cmake
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/cmake/softleg_gazeboConfig-version.cmake
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/package.xml

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating jumping_experiments.egg-info
+writing jumping_experiments.egg-info/PKG-INFO
+writing dependency_links to jumping_experiments.egg-info/dependency_links.txt
+writing entry points to jumping_experiments.egg-info/entry_points.txt
+writing requirements to jumping_experiments.egg-info/requires.txt
+writing top-level names to jumping_experiments.egg-info/top_level.txt
+writing manifest file 'jumping_experiments.egg-info/SOURCES.txt'
+reading manifest file 'jumping_experiments.egg-info/SOURCES.txt'
+writing manifest file 'jumping_experiments.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yurs/softleg_ws/install/jumping_experiments/lib/python3.10/site-packages/jumping-experiments.egg-link (link to .)
+Installing getup script to /home/yurs/softleg_ws/install/jumping_experiments/lib/jumping_experiments
+Installing jumping_node script to /home/yurs/softleg_ws/install/jumping_experiments/lib/jumping_experiments
+
+Installed /home/yurs/softleg_ws/build/jumping_experiments
+running symlink_data
+creating /home/yurs/softleg_ws/install/jumping_experiments/share/ament_index
+creating /home/yurs/softleg_ws/install/jumping_experiments/share/ament_index/resource_index
+creating /home/yurs/softleg_ws/install/jumping_experiments/share/ament_index/resource_index/packages
+symbolically linking /home/yurs/softleg_ws/build/jumping_experiments/resource/jumping_experiments -> /home/yurs/softleg_ws/install/jumping_experiments/share/ament_index/resource_index/packages
+symbolically linking /home/yurs/softleg_ws/build/jumping_experiments/package.xml -> /home/yurs/softleg_ws/install/jumping_experiments/share/jumping_experiments
+creating /home/yurs/softleg_ws/install/jumping_experiments/share/jumping_experiments/launch
+symbolically linking /home/yurs/softleg_ws/build/jumping_experiments/launch/experiment_simulation.launch.py -> /home/yurs/softleg_ws/install/jumping_experiments/share/jumping_experiments/launch
+symbolically linking /home/yurs/softleg_ws/build/jumping_experiments/launch/experiment.launch.py -> /home/yurs/softleg_ws/install/jumping_experiments/share/jumping_experiments/launch
+symbolically linking /home/yurs/softleg_ws/build/jumping_experiments/launch/controller_start.launch.py -> /home/yurs/softleg_ws/install/jumping_experiments/share/jumping_experiments/launch

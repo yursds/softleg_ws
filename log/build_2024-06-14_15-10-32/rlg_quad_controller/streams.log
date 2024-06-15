@@ -1,0 +1,19 @@
+[0.381s] Invoking command in '/home/yurs/softleg_ws/build/rlg_quad_controller': CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs:/home/yurs/softleg_ws/install/softleg_gazebo:/home/yurs/softleg_ws/install/softleg_description:/home/yurs/softleg_ws/install/rbt_pd_cnt LD_LIBRARY_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs/lib:/home/yurs/softleg_ws/install/rbt_pd_cnt/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/yurs/softleg_ws/build/rlg_quad_controller/prefix_override:/home/yurs/softleg_ws/install/rlg_quad_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yurs/softleg_ws/build/rlg_quad_controller/build --no-deps symlink_data
+[0.524s] running develop
+[0.524s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.524s]   warnings.warn(
+[0.591s] running egg_info
+[0.592s] writing rlg_quad_controller.egg-info/PKG-INFO
+[0.592s] writing dependency_links to rlg_quad_controller.egg-info/dependency_links.txt
+[0.592s] writing entry points to rlg_quad_controller.egg-info/entry_points.txt
+[0.592s] writing requirements to rlg_quad_controller.egg-info/requires.txt
+[0.592s] writing top-level names to rlg_quad_controller.egg-info/top_level.txt
+[0.593s] reading manifest file 'rlg_quad_controller.egg-info/SOURCES.txt'
+[0.593s] writing manifest file 'rlg_quad_controller.egg-info/SOURCES.txt'
+[0.594s] running build_ext
+[0.595s] Creating /home/yurs/softleg_ws/install/rlg_quad_controller/lib/python3.10/site-packages/rlg-quad-controller.egg-link (link to .)
+[0.595s] Installing inference_controller script to /home/yurs/softleg_ws/install/rlg_quad_controller/lib/rlg_quad_controller
+[0.595s] 
+[0.595s] Installed /home/yurs/softleg_ws/build/rlg_quad_controller
+[0.595s] running symlink_data
+[0.612s] Invoked command in '/home/yurs/softleg_ws/build/rlg_quad_controller' returned '0': CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs:/home/yurs/softleg_ws/install/softleg_gazebo:/home/yurs/softleg_ws/install/softleg_description:/home/yurs/softleg_ws/install/rbt_pd_cnt LD_LIBRARY_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs/lib:/home/yurs/softleg_ws/install/rbt_pd_cnt/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/yurs/softleg_ws/build/rlg_quad_controller/prefix_override:/home/yurs/softleg_ws/install/rlg_quad_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yurs/softleg_ws/build/rlg_quad_controller/build --no-deps symlink_data

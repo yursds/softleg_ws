@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/launch/sim.launch.py
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/config/softleg_gazebo_sim_jnt_PD.yaml
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/package_run_dependencies/softleg_gazebo
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/parent_prefix_path/softleg_gazebo
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/path.sh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/path.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.bash
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.sh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.zsh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/package.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/packages/softleg_gazebo
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/cmake/softleg_gazeboConfig.cmake
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/cmake/softleg_gazeboConfig-version.cmake
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/package.xml

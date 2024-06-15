@@ -1,0 +1,1 @@
+/home/yurs/softleg_ws/build/softleg_description/ament_cmake_core/softleg_descriptionConfig.cmake

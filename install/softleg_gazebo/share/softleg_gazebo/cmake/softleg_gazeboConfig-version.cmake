@@ -1,0 +1,1 @@
+/home/yurs/softleg_ws/build/softleg_gazebo/ament_cmake_core/softleg_gazeboConfig-version.cmake

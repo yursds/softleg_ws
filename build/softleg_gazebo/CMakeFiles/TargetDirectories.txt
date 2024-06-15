@@ -1,0 +1,9 @@
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/uninstall.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/softleg_gazebo_uninstall.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/test.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/edit_cache.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/rebuild_cache.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/list_install_components.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/install.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/install/local.dir
+/home/yurs/softleg_ws/build/softleg_gazebo/CMakeFiles/install/strip.dir

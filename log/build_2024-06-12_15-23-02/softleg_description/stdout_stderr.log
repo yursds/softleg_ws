@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yurs/softleg_ws/build/softleg_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/links.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/material.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/leg.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/links.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/material.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/mulinex.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/old/softleg.transmission.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/old/softleg.urdf
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/old/softleg.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/old/softleg_cart.urdf.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/old/softleg_inertia.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/old/softleg_materials.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.gazebo.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.transmission.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.urdf
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg_inertia.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg_materials.xacro
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softlegisaac.urdf
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softlegisaac_anto.urdf
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softlegisaac_ok.urdf
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/launch/display_softleg.launch.py
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Body.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Lower_leg_left.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Lower_leg_right.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Module_2_left.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Module_2_right.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Module_left_front.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Module_left_hind.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Module_right_front.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/Module_right_hind.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/base.dae
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/base.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/calf.dae
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/calf.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/cart.dae
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/cart.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/softleg_1_base_link_visuals_mesh_0.obj
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/softleg_1_calf_link_visuals_mesh_0.obj
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/softleg_1_cart_link_visuals_mesh_0.obj
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/softleg_1_thigh_link_visuals_mesh_0.obj
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/thigh.dae
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/thigh.stl
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/rviz/config.rviz
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/ament_index/resource_index/package_run_dependencies/softleg_description
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/ament_index/resource_index/parent_prefix_path/softleg_description
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/path.sh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/path.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.bash
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.sh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.zsh
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/package.dsv
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/ament_index/resource_index/packages/softleg_description
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/cmake/softleg_descriptionConfig.cmake
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/cmake/softleg_descriptionConfig-version.cmake
+-- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/package.xml

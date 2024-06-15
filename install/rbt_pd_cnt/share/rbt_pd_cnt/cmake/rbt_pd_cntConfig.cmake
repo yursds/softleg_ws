@@ -1,0 +1,1 @@
+/home/yurs/softleg_ws/build/rbt_pd_cnt/ament_cmake_core/rbt_pd_cntConfig.cmake

@@ -1,0 +1,19 @@
+[0.333s] Invoking command in '/home/yurs/softleg_ws/build/rlg_quad_controller': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs LD_LIBRARY_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yurs/softleg_ws/build/rlg_quad_controller/prefix_override:/home/yurs/softleg_ws/install/rlg_quad_controller/lib/python3.10/site-packages:/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yurs/softleg_ws/build/rlg_quad_controller/build --no-deps symlink_data
+[0.469s] running develop
+[0.469s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.469s]   warnings.warn(
+[0.527s] running egg_info
+[0.527s] writing rlg_quad_controller.egg-info/PKG-INFO
+[0.527s] writing dependency_links to rlg_quad_controller.egg-info/dependency_links.txt
+[0.527s] writing entry points to rlg_quad_controller.egg-info/entry_points.txt
+[0.528s] writing requirements to rlg_quad_controller.egg-info/requires.txt
+[0.528s] writing top-level names to rlg_quad_controller.egg-info/top_level.txt
+[0.529s] reading manifest file 'rlg_quad_controller.egg-info/SOURCES.txt'
+[0.530s] writing manifest file 'rlg_quad_controller.egg-info/SOURCES.txt'
+[0.530s] running build_ext
+[0.530s] Creating /home/yurs/softleg_ws/install/rlg_quad_controller/lib/python3.10/site-packages/rlg-quad-controller.egg-link (link to .)
+[0.531s] Installing inference_controller script to /home/yurs/softleg_ws/install/rlg_quad_controller/lib/rlg_quad_controller
+[0.531s] 
+[0.531s] Installed /home/yurs/softleg_ws/build/rlg_quad_controller
+[0.531s] running symlink_data
+[0.549s] Invoked command in '/home/yurs/softleg_ws/build/rlg_quad_controller' returned '0': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs LD_LIBRARY_PATH=/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yurs/softleg_ws/build/rlg_quad_controller/prefix_override:/home/yurs/softleg_ws/install/rlg_quad_controller/lib/python3.10/site-packages:/home/yurs/softleg_ws/install/pi3hat_moteus_int_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yurs/softleg_ws/build/rlg_quad_controller/build --no-deps symlink_data
