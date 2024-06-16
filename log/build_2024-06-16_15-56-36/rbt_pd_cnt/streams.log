@@ -1,0 +1,93 @@
+[0.212s] Invoking command in '/home/yurs/softleg_ws/build/rbt_pd_cnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/rbt_pd_cnt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/rbt_pd_cnt
+[0.286s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.441s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.728s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.778s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.806s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.847s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.851s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.859s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.956s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.047s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.096s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.164s] -- Looking for pthread.h
+[1.219s] -- Looking for pthread.h - found
+[1.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.273s] -- Found Threads: TRUE  
+[1.448s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.481s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.533s] -- Found controller_interface: 2.41.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.751s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[3.665s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.759s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.759s] -- Configured cppcheck include dirs: /home/yurs/softleg_ws/src/rbt_pd_cnt/include
+[3.759s] -- Configured cppcheck exclude dirs and/or files: 
+[3.759s] -- Added test 'lint_cmake' to check CMake code style
+[3.761s] -- Added test 'uncrustify' to check C / C++ code style
+[3.761s] -- Configured uncrustify additional arguments: 
+[3.761s] -- Added test 'xmllint' to check XML markup files
+[3.764s] -- Configuring done
+[3.792s] -- Generating done
+[3.793s] -- Build files have been written to: /home/yurs/softleg_ws/build/rbt_pd_cnt
+[3.801s] Invoked command in '/home/yurs/softleg_ws/build/rbt_pd_cnt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/rbt_pd_cnt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/rbt_pd_cnt
+[3.801s] Invoking command in '/home/yurs/softleg_ws/build/rbt_pd_cnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/rbt_pd_cnt -- -j8 -l8
+[3.859s] [ 50%] [32mBuilding CXX object CMakeFiles/rbt_pd_cnt.dir/src/robot_pd_cnt.cpp.o[0m
+[5.780s] In file included from [01m[K/home/yurs/softleg_ws/src/rbt_pd_cnt/src/robot_pd_cnt.cpp:2[m[K:
+[5.780s] [01m[K/home/yurs/softleg_ws/src/rbt_pd_cnt/include/robot_pd_cnt.hpp:[m[K In constructor ‘[01m[Krbt_pd_cnt::Rbt_PD_cnt::Rbt_PD_cnt()[m[K’:
+[5.780s] [01m[K/home/yurs/softleg_ws/src/rbt_pd_cnt/include/robot_pd_cnt.hpp:60:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Krbt_pd_cnt::Rbt_PD_cnt::rt_command_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.780s]    60 |             realtime_tools::RealtimeBuffer<std::shared_ptr<CmdType>> [01;35m[Krt_command_ptr_[m[K;
+[5.780s]       |                                                                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.780s] [01m[K/home/yurs/softleg_ws/src/rbt_pd_cnt/include/robot_pd_cnt.hpp:45:54:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> > >::SharedPtr rbt_pd_cnt::Rbt_PD_cnt::jnt_cmd_sub_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.780s]    45 |             rclcpp::Subscription<CmdType>::SharedPtr [01;35m[Kjnt_cmd_sub_[m[K;
+[5.780s]       |                                                      [01;35m[K^~~~~~~~~~~~[m[K
+[5.780s] [01m[K/home/yurs/softleg_ws/src/rbt_pd_cnt/src/robot_pd_cnt.cpp:19:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.780s]    19 |     [01;35m[KRbt_PD_cnt[m[K::Rbt_PD_cnt():
+[5.780s]       |     [01;35m[K^~~~~~~~~~[m[K
+[10.117s] [100%] [32m[1mLinking CXX shared library librbt_pd_cnt.so[0m
+[10.489s] [100%] Built target rbt_pd_cnt
+[10.497s] Invoked command in '/home/yurs/softleg_ws/build/rbt_pd_cnt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/rbt_pd_cnt -- -j8 -l8
+[10.516s] Invoking command in '/home/yurs/softleg_ws/build/rbt_pd_cnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/rbt_pd_cnt
+[10.521s] -- Install configuration: ""
+[10.521s] -- Execute custom install script
+[10.521s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt//rbt_pd_cnt.xml
+[10.527s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/include/real_pd_cnt.hpp
+[10.533s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/include/robot_pd_cnt.hpp
+[10.539s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/lib/librbt_pd_cnt.so
+[10.546s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/environment/library_path.sh
+[10.553s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/environment/library_path.dsv
+[10.560s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/ament_index/resource_index/package_run_dependencies/rbt_pd_cnt
+[10.566s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/ament_index/resource_index/parent_prefix_path/rbt_pd_cnt
+[10.575s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/environment/ament_prefix_path.sh
+[10.581s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/environment/ament_prefix_path.dsv
+[10.588s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/environment/path.sh
+[10.594s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/environment/path.dsv
+[10.600s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/local_setup.bash
+[10.606s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/local_setup.sh
+[10.612s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/local_setup.zsh
+[10.618s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/local_setup.dsv
+[10.624s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/package.dsv
+[10.630s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/ament_index/resource_index/packages/rbt_pd_cnt
+[10.636s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rbt_pd_cnt
+[10.644s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.650s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.658s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/cmake/ament_cmake_export_libraries-extras.cmake
+[10.664s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/cmake/rbt_pd_cntConfig.cmake
+[10.671s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/cmake/rbt_pd_cntConfig-version.cmake
+[10.677s] -- Symlinking: /home/yurs/softleg_ws/install/rbt_pd_cnt/share/rbt_pd_cnt/package.xml
+[10.685s] Invoked command in '/home/yurs/softleg_ws/build/rbt_pd_cnt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/rbt_pd_cnt

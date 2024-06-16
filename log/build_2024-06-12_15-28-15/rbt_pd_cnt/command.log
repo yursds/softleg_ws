@@ -1,2 +1,0 @@
-Invoking command in '/home/yurs/softleg_ws/build/rbt_pd_cnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/rbt_pd_cnt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/rbt_pd_cnt
-Invoked command in '/home/yurs/softleg_ws/build/rbt_pd_cnt' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/rbt_pd_cnt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/rbt_pd_cnt

@@ -1,0 +1,49 @@
+[0.005s] Invoking command in '/home/yurs/softleg_ws/build/softleg_gazebo': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/softleg_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/softleg_gazebo
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.383s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.497s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.570s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.571s] -- Added test 'lint_cmake' to check CMake code style
+[0.571s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.572s] -- Added test 'xmllint' to check XML markup files
+[0.573s] -- Configuring done
+[0.575s] -- Generating done
+[0.576s] -- Build files have been written to: /home/yurs/softleg_ws/build/softleg_gazebo
+[0.580s] Invoked command in '/home/yurs/softleg_ws/build/softleg_gazebo' returned '0': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/softleg_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/softleg_gazebo
+[0.581s] Invoking command in '/home/yurs/softleg_ws/build/softleg_gazebo': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/softleg_gazebo -- -j8 -l8
+[0.615s] Invoked command in '/home/yurs/softleg_ws/build/softleg_gazebo' returned '0': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/softleg_gazebo -- -j8 -l8
+[0.635s] Invoking command in '/home/yurs/softleg_ws/build/softleg_gazebo': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/softleg_gazebo
+[0.641s] -- Install configuration: ""
+[0.642s] -- Execute custom install script
+[0.642s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/launch/sim.launch.py
+[0.650s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/launch/sim.launch_debug.py
+[0.657s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/config/softleg_gazebo_sim_jnt_PD.yaml
+[0.664s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/package_run_dependencies/softleg_gazebo
+[0.672s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/parent_prefix_path/softleg_gazebo
+[0.680s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/ament_prefix_path.sh
+[0.688s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/ament_prefix_path.dsv
+[0.696s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/path.sh
+[0.704s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/environment/path.dsv
+[0.712s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.bash
+[0.719s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.sh
+[0.727s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.zsh
+[0.735s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/local_setup.dsv
+[0.743s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/package.dsv
+[0.752s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/packages/softleg_gazebo
+[0.762s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/cmake/softleg_gazeboConfig.cmake
+[0.771s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/cmake/softleg_gazeboConfig-version.cmake
+[0.779s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/package.xml
+[0.790s] Invoked command in '/home/yurs/softleg_ws/build/softleg_gazebo' returned '0': AMENT_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yurs/softleg_ws/install/softleg_description:/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/softleg_gazebo

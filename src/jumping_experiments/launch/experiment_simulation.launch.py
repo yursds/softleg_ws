@@ -50,7 +50,7 @@ def generate_launch_description():
 
         return LaunchDescription([
                 ExecuteProcess(
-                cmd=['ros2', 'bag', 'record', '-a', '-o', 'bag_to_delete', '-s', 'mcap'],
+                cmd=['ros2', 'bag', 'record', '-a', '-o', 'bag_to_delete', '-s', 'sqlite3'],
                 output='screen'
                 ),
                 jumping_node,

@@ -1,12 +1,13 @@
 controller_manager:
   ros__parameters:
-    update_rate: 1000 # Hz
-
+    update_rate: 1000.0 # Hz
+    
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
+    
     PD_control:
       type: rbt_pd_cnt/Rbt_PD_cnt
-      
+
 PD_control:
   ros__parameters:
     joint:

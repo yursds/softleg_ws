@@ -1,4 +1,5 @@
 /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/launch/sim.launch.py
+/home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/launch/sim.launch_debug.py
 /home/yurs/softleg_ws/install/softleg_gazebo/share/softleg_gazebo/config/softleg_gazebo_sim_jnt_PD.yaml
 /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/package_run_dependencies/softleg_gazebo
 /home/yurs/softleg_ws/install/softleg_gazebo/share/ament_index/resource_index/parent_prefix_path/softleg_gazebo

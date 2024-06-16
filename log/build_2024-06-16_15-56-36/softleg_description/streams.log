@@ -1,0 +1,74 @@
+[0.012s] Invoking command in '/home/yurs/softleg_ws/build/softleg_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/softleg_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/softleg_description
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.445s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.568s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.670s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.671s] -- Added test 'lint_cmake' to check CMake code style
+[0.672s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.673s] -- Added test 'xmllint' to check XML markup files
+[0.675s] -- Configuring done
+[0.677s] -- Generating done
+[0.677s] -- Build files have been written to: /home/yurs/softleg_ws/build/softleg_description
+[0.681s] Invoked command in '/home/yurs/softleg_ws/build/softleg_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yurs/softleg_ws/src/softleg_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/softleg_ws/install/softleg_description
+[0.683s] Invoking command in '/home/yurs/softleg_ws/build/softleg_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/softleg_description -- -j8 -l8
+[0.729s] Invoked command in '/home/yurs/softleg_ws/build/softleg_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yurs/softleg_ws/build/softleg_description -- -j8 -l8
+[0.756s] Invoking command in '/home/yurs/softleg_ws/build/softleg_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/softleg_description
+[0.762s] -- Install configuration: ""
+[0.762s] -- Execute custom install script
+[0.763s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/links.xacro
+[0.771s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/material.xacro
+[0.777s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex.xacro
+[0.784s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/leg.xacro
+[0.791s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/links.xacro
+[0.799s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/material.xacro
+[0.806s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/mulinex/mulinex.xacro
+[0.814s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.gazebo.xacro
+[0.820s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.transmission.xacro
+[0.827s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.urdf
+[0.834s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg.xacro
+[0.841s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg_inertia.xacro
+[0.849s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softleg_materials.xacro
+[0.857s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/urdf/softlegisaac.urdf
+[0.863s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/launch/display_softleg.launch.py
+[0.870s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/base.dae
+[0.877s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/base.stl
+[0.885s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/base_link.obj
+[0.892s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/calf.dae
+[0.899s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/calf.stl
+[0.906s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/calf_link.obj
+[0.913s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/cart.dae
+[0.920s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/cart.stl
+[0.929s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/cart_link.obj
+[0.937s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/thigh.dae
+[0.944s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/thigh.stl
+[0.953s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/meshes/thigh_link.obj
+[0.960s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/rviz/config.rviz
+[0.968s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/ament_index/resource_index/package_run_dependencies/softleg_description
+[0.974s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/ament_index/resource_index/parent_prefix_path/softleg_description
+[0.981s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/ament_prefix_path.sh
+[0.987s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/ament_prefix_path.dsv
+[0.993s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/path.sh
+[1.000s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/environment/path.dsv
+[1.007s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.bash
+[1.014s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.sh
+[1.021s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.zsh
+[1.028s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/local_setup.dsv
+[1.034s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/package.dsv
+[1.041s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/ament_index/resource_index/packages/softleg_description
+[1.048s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/cmake/softleg_descriptionConfig.cmake
+[1.054s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/cmake/softleg_descriptionConfig-version.cmake
+[1.061s] -- Symlinking: /home/yurs/softleg_ws/install/softleg_description/share/softleg_description/package.xml
+[1.085s] Invoked command in '/home/yurs/softleg_ws/build/softleg_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yurs/softleg_ws/build/softleg_description
